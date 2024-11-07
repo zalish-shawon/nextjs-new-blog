@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className='bg-blue-500 text-white p-5'>
+        <header className='bg-blue-400 text-white p-5'>
             <div className='logo'>
                 <Link className='mb-5' href={'/'}>My Blog</Link>
             </div>
@@ -15,6 +15,8 @@ const Header = () => {
                     <li><Link href={'/code/repos'}>Code</Link></li>
                 </ul>
             </div>
+
+            
         </header>
     );
 };

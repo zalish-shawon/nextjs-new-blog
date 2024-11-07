@@ -9,7 +9,6 @@ const RepoPage = ({params}) => {
             <h2 className='font-bold'>{params.name}</h2>
             
         </div>
-        
         </div>
     );
 };
